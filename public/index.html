@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus Skill Exchange</title>
+  <meta name="description" content="Sri Eshwar College of Engineering - Peer Learning Platform" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: hsl(221, 71%, 55%);
+      --bg: hsl(210, 10%, 11%);
+      --card-bg: hsla(0, 0%, 100%, 0.08);
+      --text-primary: hsl(0, 0%, 95%);
+      --text-secondary: hsl(0, 0%, 70%);
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: var(--text-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      border-radius: 12px;
+      padding: 2rem;
+      max-width: 420px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+    .logo {
+      background: linear-gradient(135deg, var(--primary), #1d4ed8);
+      border-radius: 8px;
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    h1 {
+      margin: 0.5rem 0 0.2rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    p {
+      margin: 0.2rem 0 1.5rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .nav a {
+      text-decoration: none;
+      color: var(--text-primary);
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      background: hsla(0, 0%, 100%, 0.07);
+      transition: background 0.3s, transform 0.2s;
+    }
+    .nav a:hover {
+      background: var(--primary);
+      transform: translateY(-2px);
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">SE</div>
+    <h1>Campus Skill Exchange</h1>
+    <p>Sri Eshwar College of Engineering</p>
+    <nav class="nav">
+      <a href="#">🔍 Browse &amp; Book Tutors</a>
+      <a href="#">📅 My Sessions &amp; Reviews</a>
+      <a href="#">💬 Peer Q&amp;A Board</a>
+      <a href="#">🧑‍🎓 My Profile &amp; Tutoring</a>
+      <a href="#">📊 College Analytics Dashboard</a>
+    </nav>
+    <footer>
+      © 2026 Sri Eshwar College of Engineering – All rights reserved
+    </footer>
+  </div>
+</body>
+</html>
